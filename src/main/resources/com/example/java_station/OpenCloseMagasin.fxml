@@ -24,4 +24,7 @@
 
     <Label fx:id="IntEmploye"/>
 
+    <Label fx:id="IntClient"/>
+
+
 </VBox>

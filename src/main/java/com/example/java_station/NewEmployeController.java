@@ -55,5 +55,7 @@ public class NewEmployeController {
 
         Employe emp = new Employe(name, age);
         statusLabel.setText("Employé créé : " + emp.getName());
+        nameField.clear();
+        ageField.clear();
     }
 }

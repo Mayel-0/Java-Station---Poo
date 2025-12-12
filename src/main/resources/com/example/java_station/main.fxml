@@ -9,8 +9,9 @@
 <VBox xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.java_station.MainController">
 
-    <fx:include fx:id="magasin" source="OpenCloseMagasin.fxml"/>
+    <!--<fx:include fx:id="magasin" source="OpenCloseMagasin.fxml"/>
     <fx:include fx:id="newEmploye" source="NewEmployer.fxml"/>
+    <fx:include fx:id="clients" source="Client.fxml"/>-->
 
 </VBox>
 

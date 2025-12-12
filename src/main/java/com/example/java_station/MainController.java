@@ -4,17 +4,18 @@ import javafx.fxml.FXML;
 
 public class MainController {
 
-    // JavaFX va injecter automatiquement le contrôleur de Magasin.fxml ici
     @FXML
-    private Magasin magasinController;
+    private Magasin magasinController;          // fx:id="magasin"
 
-    // et le contrôleur de NewEmploye.fxml ici
     @FXML
-    private NewEmployeController newEmployeController;
+    private NewEmployeController newEmployeController; // fx:id="newEmploye"
+
+    @FXML
+    private Client clientsController;           // fx:id="clients"
 
     @FXML
     private void initialize() {
-        // on donne au NewEmployeController une référence vers le magasin
         newEmployeController.setMagasin(magasinController);
+        clientsController.setMagasin(magasinController);
     }
 }
