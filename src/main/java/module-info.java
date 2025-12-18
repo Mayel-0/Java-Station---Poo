@@ -1,9 +1,8 @@
-module com.example.java_station {
+module com.example.testjavastation {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.base;
 
 
-    opens com.example.java_station to javafx.fxml;
-    exports com.example.java_station;
+    opens com.example.testjavastation to javafx.fxml;
+    exports com.example.testjavastation;
 }

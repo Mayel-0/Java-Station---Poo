@@ -1,4 +1,4 @@
-package com.example.java_station;
+package com.example.testjavastation;
 
 import javafx.application.Application;
 
